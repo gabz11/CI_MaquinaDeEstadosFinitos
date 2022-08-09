@@ -38,7 +38,7 @@ def verifica_string(string):
     alfabeto = ['a', 'b', 'c']  # alfabeto possivel utilizado no enunciado
     tamanho_str = len(string)  # tamanho da string
 
-    resultado = False  # verifica o resultado da checagem
+    resultado = True  # verifica o resultado da checagem
 
     for l in range(0, tamanho_str):
         # percorre cada simbolo da string
