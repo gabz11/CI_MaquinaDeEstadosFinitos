@@ -33,8 +33,6 @@ composta de uma linha de saída por string de entrada. No caso do exemplo, terem
 
 
 def verifica_string(string):
-    string = string.lower()  # deixa texto de entrada minisculo caso esteja maiusculo
-
     alfabeto = ['a', 'b', 'c']  # alfabeto possivel utilizado no enunciado
     tamanho_str = len(string)  # tamanho da string
 
